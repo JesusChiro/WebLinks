@@ -72,9 +72,9 @@ def links() -> rx.Component:
         title("Contacto"),
         link_button(
             "Whatsapp",
-            const.MYPUBLICINBOX_URL,
-            "icons/whatsapp.svg",
             "Número personal y/o para negocios",
+            "icons/whatsapp.svg",
+            const.MYWSPNUMBER_URL,
         ),
         link_button(
             "Email",
