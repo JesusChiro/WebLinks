@@ -4,7 +4,6 @@
 import { Fragment } from "react"
 import { Fragment_fd0e7cb8f9fb4669a6805377d925fba0 } from "/utils/stateful_components"
 import { Avatar, Box, Button, Center, Flex, Heading, HStack, Image as ChakraImage, Link, SimpleGrid, Spacer, Text, VStack } from "@chakra-ui/react"
-import Script from "next/script"
 import "focus-visible/dist/focus-visible"
 import NextLink from "next/link"
 import NextHead from "next/head"
@@ -16,10 +15,7 @@ export default function Component() {
   return (
     <Fragment>
   <Fragment_fd0e7cb8f9fb4669a6805377d925fba0/>
-  <Box>
-  <Script strategy={`afterInteractive`}>
-  {`document.documentElement.lang='es'`}
-</Script>
+  <Box sx={{"backgroundColor": "#0C151D"}}>
   <HStack sx={{"position": "sticky", "bg": "#171F26", "paddingX": "2em", "paddingY": "1em", "zIndex": "999", "top": "0"}}>
   <Box sx={{"fontFamily": "Comfortaa", "fontWeight": "500", "fontSize": "1.5em"}}>
   <Text as={`span`} sx={{"color": "#14A1F0"}}>
@@ -30,6 +26,7 @@ export default function Component() {
 </Text>
 </Box>
 </HStack>
+  <VStack>
   <Center>
   <VStack sx={{"maxWidth": "600px", "width": "100%", "marginY": "2em", "padding": "2em"}}>
   <VStack alignItems={`start`} spacing={`2em`}>
@@ -171,84 +168,6 @@ export default function Component() {
 </Button>
 </Link>
   <Heading size={`lg`} sx={{"width": "100%", "size": "lg", "fontFamily": "Poppins", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontWeight": "500"}}>
-  {`Recursos y más`}
-</Heading>
-  <Link as={NextLink} href={`https://mouredev.com/libro-git`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Git y GitHub desde cero`} src={`icons/git.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Git y GitHub desde cero`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Aquí puedes comprar mi libro en formato físico y eBook`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://amazon.es/shop/mouredev/list/2ZIHJJFJ9AVZ3`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Libros recomendados`} src={`icons/book.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Libros recomendados`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Mi listado de libros sobre programación, ciencia y tecnología`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://mouredev.com/setup`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Mi setup`} src={`icons/setup.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Mi setup`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Listado con todos los elementos que uso en mi trabajo`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://mouredev.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`MoureDev`} src={`icons/logo.png`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`MoureDev`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Mi sitio web`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://buymeacoffee.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Invítame a un café`} src={`icons/coffee.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Invítame a un café`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`¿Quieres ayudarme a que siga creando contenido?`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Heading size={`lg`} sx={{"width": "100%", "size": "lg", "fontFamily": "Poppins", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontWeight": "500"}}>
   {`Contacto`}
 </Heading>
   <Link as={NextLink} href={`https://mypublicinbox.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
@@ -266,7 +185,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`mailto:braismoure@mouredev.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`mailto:dchiroque@nmtelecom.pe`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Email`} src={`icons/email.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
@@ -275,7 +194,7 @@ export default function Component() {
   {`Email`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`braismoure@mouredev.com`}
+  {`dchiroque@nmtelecom.pe`}
 </Text>
 </VStack>
 </HStack>
@@ -306,12 +225,13 @@ export default function Component() {
   {`BUILDING SOFTWARE with ♥ from Lima to World`}
 </Text>
 </VStack>
+</VStack>
 </Box>
   <NextHead>
   <title>
-  {`MoureDev | Te enseño programación y desarrollo de software`}
+  {`Web de Links | Jesus Chiroque`}
 </title>
-  <meta content={`Hola, mi nombre es Brais Moure. Soy ingeniero de software, desarrollador freelance full-stack y divulgador.`} name={`description`}/>
+  <meta content={`Hola, mi nombre es Jesus Chiroque. Aficionado a la tecnología`} name={`description`}/>
   <meta content={`avatar.jpg`} property={`og:image`}/>
 </NextHead>
 </Fragment>

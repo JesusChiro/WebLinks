@@ -22,7 +22,7 @@ COFFEE_URL = "https://buymeacoffee.com/mouredev"
 
 # Contacto
 MYPUBLICINBOX_URL = "https://mypublicinbox.com/mouredev"
-EMAIL = "braismoure@mouredev.com"
+EMAIL = "dchiroque@nmtelecom.pe"
 
 # Sponsors
 ELGATO_URL = "https://e.lga.to/MoureDev"

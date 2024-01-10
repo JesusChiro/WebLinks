@@ -6,24 +6,27 @@ from PyReflex.views.links.links import links
 from PyReflex.views.sponsors.sponsors import sponsors
 from PyReflex.components.footer import footer
 from PyReflex.styles.styles import Size
+from PyReflex.styles.colors import Color as Color
 
 
 def index() -> rx.Component:
     return rx.box(
-        rx.script("document.documentElement.lang='es'"),
         navbar(),
-        rx.center(
-            rx.vstack(
-                header(),
-                links(),
-                sponsors(),
-                max_width=styles.MAX_WIDTH,
-                width="100%",
-                margin_y=Size.BIG.value,
-                padding=Size.BIG.value,
+        rx.vstack(
+            rx.center(
+                rx.vstack(
+                    header(),
+                    links(),
+                    sponsors(),
+                    max_width=styles.MAX_WIDTH,
+                    width="100%",
+                    margin_y=Size.BIG.value,
+                    padding=Size.BIG.value,
+                ),
             ),
+            footer(),
         ),
-        footer(),
+        background_color=Color.BACKGROUND.value,
     )
 
 
@@ -33,9 +36,7 @@ app = rx.App(
 )
 app.add_page(
     index,
-    title="MoureDev | Te enseño programación y desarrollo de software",
-    description="Hola, mi nombre es Brais Moure. Soy ingeniero de software, desarrollador freelance full-stack y divulgador.",
+    title="Web de Links | Jesus Chiroque",
+    description="Hola, mi nombre es Jesus Chiroque. Aficionado a la tecnología",
     image="avatar.jpg",
 )
-
-app.compile()

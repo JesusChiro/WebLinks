@@ -2,7 +2,7 @@ import reflex as rx
 from enum import Enum
 from .colors import Color as Color
 from .colors import TextColor as TextColor
-from .fonts import Font as Font 
+from .fonts import Font as Font
 from .fonts import FontWeight as FontWeight
 
 # Constans
@@ -32,7 +32,7 @@ class Size(Enum):
 BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "font_weight": FontWeight.LIGHT.value,
-    "background_color": Color.BACKGROUND.value,
+    # "background_color": "Color.BACKGROUND.value",
     rx.Heading: {
         "color": TextColor.HEADER.value,
         "font_family": Font.TITLE.value,
@@ -56,6 +56,7 @@ BASE_STYLE = {
         "_hover": {},
     },
 }
+
 
 navbar_title_style = dict(
     font_family=Font.LOGO.value,

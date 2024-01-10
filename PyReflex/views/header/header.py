@@ -31,12 +31,36 @@ def header() -> rx.Component:
                     color=TextColor.BODY.value,
                 ),
                 rx.hstack(
-                    link_icon("icons/github.svg", const.GITHUB_URL, "GitHub",),
-                    link_icon("icons/x.svg", const.TWITTER_X_URL, "Twitter/X",),
-                    link_icon("icons/instagram.svg", const.INSTAGRAM_URL, "Instagram",),
-                    link_icon("icons/tiktok.svg", const.TIKTOK_URL, "TikTok",),
-                    link_icon("icons/spotify.svg", const.SPOTIFY_URL, "Spotify",),
-                    link_icon("icons/linkedin.svg", const.LINKEDIN_URL, "LinkedIn",),
+                    link_icon(
+                        "icons/github.svg",
+                        const.GITHUB_URL,
+                        "GitHub",
+                    ),
+                    link_icon(
+                        "icons/x.svg",
+                        const.TWITTER_X_URL,
+                        "Twitter/X",
+                    ),
+                    link_icon(
+                        "icons/instagram.svg",
+                        const.INSTAGRAM_URL,
+                        "Instagram",
+                    ),
+                    link_icon(
+                        "icons/tiktok.svg",
+                        const.TIKTOK_URL,
+                        "TikTok",
+                    ),
+                    link_icon(
+                        "icons/spotify.svg",
+                        const.SPOTIFY_URL,
+                        "Spotify",
+                    ),
+                    link_icon(
+                        "icons/linkedin.svg",
+                        const.LINKEDIN_URL,
+                        "LinkedIn",
+                    ),
                     spacing=Size.LARGE.value,
                 ),
                 align_items="start",
