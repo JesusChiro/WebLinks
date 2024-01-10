@@ -1,6 +1,3 @@
-/** @jsxImportSource @emotion/react */
-
-
 import { Fragment, useContext } from "react"
 import { EventLoopContext } from "/utils/context"
 import { Event, isTrue } from "/utils/state"

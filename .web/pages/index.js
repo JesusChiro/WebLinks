@@ -1,9 +1,6 @@
-/** @jsxImportSource @emotion/react */
-
-
 import { Fragment } from "react"
 import { Fragment_fd0e7cb8f9fb4669a6805377d925fba0 } from "/utils/stateful_components"
-import { Avatar, Box, Button, Center, Flex, Heading, HStack, Image as ChakraImage, Link, SimpleGrid, Spacer, Text, VStack } from "@chakra-ui/react"
+import { Avatar, Box, Button, Center, Flex, Heading, HStack, Image, Link, SimpleGrid, Spacer, Text, VStack } from "@chakra-ui/react"
 import "focus-visible/dist/focus-visible"
 import NextLink from "next/link"
 import NextHead from "next/head"
@@ -41,22 +38,22 @@ export default function Component() {
 </Text>
   <HStack spacing={`1.5em`}>
   <Link as={NextLink} href={`https://github.com/JesusChiro`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`GitHub`} src={`icons/github.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`GitHub`} src={`icons/github.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://twitter.com/chiroque1993`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`Twitter/X`} src={`icons/x.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`Twitter/X`} src={`icons/x.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://www.instagram.com/jesus19931/`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`Instagram`} src={`icons/instagram.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`Instagram`} src={`icons/instagram.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://www.tiktok.com/@jesusdanielchiroq?_t=8isBD436N5p&_r=1`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`TikTok`} src={`icons/tiktok.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`TikTok`} src={`icons/tiktok.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://open.spotify.com/show/4iKXt5k2zCbAQOrMePh7qh`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`Spotify`} src={`icons/spotify.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`Spotify`} src={`icons/spotify.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://www.linkedin.com/in/jesuschiroquem/`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`LinkedIn`} src={`icons/linkedin.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
+  <Image alt={`LinkedIn`} src={`icons/linkedin.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
 </HStack>
 </VStack>
@@ -95,7 +92,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://www.twitch.tv/jesuschiroque1993`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Twitch`} src={`icons/twitch.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Twitch`} src={`icons/twitch.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`Twitch`}
@@ -110,7 +107,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://www.youtube.com/@jesusdaniel5553`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`YouTube`} src={`icons/youtube.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`YouTube`} src={`icons/youtube.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`YouTube`}
@@ -125,7 +122,7 @@ export default function Component() {
   <Link as={NextLink} href={`https:www.discord.gg/_jesusdaniel`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Discord`} src={`icons/discord.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Discord`} src={`icons/discord.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`Discord`}
@@ -140,7 +137,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://retosdeprogramacion.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Retos de programación`} src={`icons/code.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Retos de programación`} src={`icons/code.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`Retos de programación`}
@@ -155,7 +152,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://youtube.com/@mouredevtv`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`YouTube ⓘ canal secundario`} src={`icons/youtube.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`YouTube ⓘ canal secundario`} src={`icons/youtube.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`YouTube ⓘ canal secundario`}
@@ -173,7 +170,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://mypublicinbox.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`MyPublicInbox`} src={`icons/checkemail.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`MyPublicInbox`} src={`icons/checkemail.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`MyPublicInbox`}
@@ -188,7 +185,7 @@ export default function Component() {
   <Link as={NextLink} href={`mailto:dchiroque@nmtelecom.pe`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`Email`} src={`icons/email.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Email`} src={`icons/email.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`Email`}
@@ -207,17 +204,17 @@ export default function Component() {
 </Heading>
   <SimpleGrid columns={[1, 2]} spacing={`2em`}>
   <Link as={NextLink} href={`https://e.lga.to/MoureDev`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`Logotipo de ELgato`} src={`elgato.png`} sx={{"height": "4em", "width": "auto"}}/>
+  <Image alt={`Logotipo de ELgato`} src={`elgato.png`} sx={{"height": "4em", "width": "auto"}}/>
 </Link>
   <Link as={NextLink} href={`https://mvp.microsoft.com/es-es/PublicProfile/5004970`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
-  <ChakraImage alt={`Logotipo de Microsoft de MVP`} src={`mvp.png`} sx={{"height": "4em", "width": "auto"}}/>
+  <Image alt={`Logotipo de Microsoft de MVP`} src={`mvp.png`} sx={{"height": "4em", "width": "auto"}}/>
 </Link>
 </SimpleGrid>
 </VStack>
 </VStack>
 </Center>
   <VStack spacing={`1em`} sx={{"marginBottom": "2em", "paddingBottom": "2em", "paddingX": "2em", "color": "#A3ABB2"}}>
-  <ChakraImage alt={`Logotipo de MoureDev. Una "eme" entre llaves.`} src={`favicon.ico`} sx={{"height": "4em", "width": "4em"}}/>
+  <Image alt={`Logotipo de MoureDev. Una "eme" entre llaves.`} src={`favicon.ico`} sx={{"height": "4em", "width": "4em"}}/>
   <Link as={NextLink} href={`https://mouredev.com`} isExternal={true} sx={{"fontSize": "0.8em", "textDecoration": "none", "_hover": {}}}>
   {`© 2024 Jesus Chiroque Building Engineer System`}
 </Link>

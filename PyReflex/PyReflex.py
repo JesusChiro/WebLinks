@@ -40,3 +40,4 @@ app.add_page(
     description="Hola, mi nombre es Jesus Chiroque. Aficionado a la tecnología",
     image="avatar.jpg",
 )
+app.compile()
