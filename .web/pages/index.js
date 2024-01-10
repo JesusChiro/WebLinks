@@ -167,16 +167,16 @@ export default function Component() {
   <Heading size={`lg`} sx={{"width": "100%", "size": "lg", "fontFamily": "Poppins", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontWeight": "500"}}>
   {`Contacto`}
 </Heading>
-  <Link as={NextLink} href={`https://mypublicinbox.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`Número personal y/o para negocios`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#087ec4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <Image alt={`MyPublicInbox`} src={`icons/checkemail.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Whatsapp`} src={`icons/whatsapp.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`MyPublicInbox`}
+  {`Whatsapp`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Respuesta rápida y con preferencia`}
+  {`https://wa.me/+51995863645`}
 </Text>
 </VStack>
 </HStack>
