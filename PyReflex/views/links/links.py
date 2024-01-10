@@ -71,12 +71,17 @@ def links() -> rx.Component:
         # ),
         title("Contacto"),
         link_button(
-            "MyPublicInbox",
-            "Respuesta rápida y con preferencia",
-            "icons/checkemail.svg",
+            "Whatsapp",
             const.MYPUBLICINBOX_URL,
+            "icons/whatsapp.svg",
+            "Número personal y/o para negocios",
         ),
-        link_button("Email", const.EMAIL, "icons/email.svg", f"mailto:{const.EMAIL}"),
+        link_button(
+            "Email",
+            const.EMAIL,
+            "icons/email.svg",
+            f"mailto:{const.EMAIL}",
+        ),
         width="100%",
         spacing=Size.DEFAULT.value,
     )

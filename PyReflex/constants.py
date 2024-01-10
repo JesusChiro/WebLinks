@@ -21,7 +21,7 @@ MOUREDEV_URL = "https://mouredev.com"
 COFFEE_URL = "https://buymeacoffee.com/mouredev"
 
 # Contacto
-MYPUBLICINBOX_URL = "https://mypublicinbox.com/mouredev"
+MYPUBLICINBOX_URL = "https://wa.me/+51995863645"
 EMAIL = "dchiroque@nmtelecom.pe"
 
 # Sponsors
