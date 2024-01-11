@@ -28,7 +28,7 @@ def header() -> rx.Component:
                 rx.text(
                     "@JesusChiroque",
                     margin_top=Size.ZERO.value,
-                    color=TextColor.BODY.value,
+                    color=Color.PRIMARY.value,
                 ),
                 rx.hstack(
                     link_icon(
@@ -96,4 +96,4 @@ def header() -> rx.Component:
 
 
 def experience() -> int:
-    return datetime.date.today().year - 2010
+    return datetime.date.today().year - 2023

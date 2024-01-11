@@ -33,7 +33,7 @@ export default function Component() {
   <Heading size={`lg`} sx={{"color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Jesus Chiroque`}
 </Heading>
-  <Text sx={{"marginTop": "0px !important", "color": "#C3C7CB"}}>
+  <Text sx={{"marginTop": "0px !important", "color": "#14A1F0"}}>
   {`@JesusChiroque`}
 </Text>
   <HStack spacing={`1.5em`}>
@@ -61,7 +61,7 @@ export default function Component() {
   <Flex sx={{"width": "100%"}}>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   <Text as={`span`} sx={{"fontWeight": "bold", "color": "#14A1F0"}}>
-  {`14+`}
+  {`1+`}
 </Text>
   {` años de experiencia`}
 </Box>
